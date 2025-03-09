@@ -506,6 +506,9 @@
   .w-64 {
     width: calc(var(--spacing) * 64);
   }
+  .w-96 {
+    width: calc(var(--spacing) * 96);
+  }
   .w-full {
     width: 100%;
   }
@@ -1953,6 +1956,29 @@
       @media (hover: hover) {
         color: var(--color-gray-200);
       }
+    }
+  }
+  .focus\:bg-white {
+    &:focus {
+      background-color: var(--color-white);
+    }
+  }
+  .focus\:text-gray-600 {
+    &:focus {
+      color: var(--color-gray-600);
+    }
+  }
+  .focus\:placeholder-gray-800 {
+    &:focus {
+      &::placeholder {
+        color: var(--color-gray-800);
+      }
+    }
+  }
+  .focus\:outline-none {
+    &:focus {
+      --tw-outline-style: none;
+      outline-style: none;
     }
   }
 }
