@@ -10,7 +10,7 @@
   <body class="bg-gray-200">
     <div class="h-screen flex flex-col">
       <header class="flex shrink-0">
-        <div class="w-72 flex shrink-0 px-4 py-3 bg-gray-800">
+        <div class="w-72 flex shrink-0 px-4 py-3 bg-stone-800">
           <button class="flex items-center">
             <img
               class="h-9 w-9 rounded-full object-cover"
@@ -31,27 +31,27 @@
         </div>
 
         <div
-          class="flex flex-1 justify-between flex-wrap items-center p-3 bg-gray-700"
+          class="flex flex-1 justify-between flex-wrap items-center p-3 bg-stone-700"
         >
           <nav class="flex flex-wrap">
             <a
               href="#"
-              class="inline-block px-3 py-2 leading-none rounded-lg mx-2 bg-gray-800 font-medium text-white"
+              class="inline-block px-3 py-2 leading-none rounded-lg mx-2 bg-stone-800 font-medium text-white"
               >Mailbox</a
             >
             <a
               href="#"
-              class="inline-block px-3 py-2 leading-none rounded-lg mx-2 hover:bg-gray-600 font-medium text-white"
+              class="inline-block px-3 py-2 leading-none rounded-lg mx-2 hover:bg-stone-600 font-medium text-white"
               >Customers</a
             >
             <a
               href="#"
-              class="inline-block px-3 py-2 leading-none rounded-lg mx-2 hover:bg-gray-600 font-medium text-white"
+              class="inline-block px-3 py-2 leading-none rounded-lg mx-2 hover:bg-stone-600 font-medium text-white"
               >Reporting</a
             >
             <a
               href="#"
-              class="inline-block px-3 py-2 leading-none rounded-lg mx-2 hover:bg-gray-600 font-medium text-white"
+              class="inline-block px-3 py-2 leading-none rounded-lg mx-2 hover:bg-stone-600 font-medium text-white"
               >Manage</a
             >
           </nav>
@@ -59,21 +59,26 @@
             <div class="relative w-64">
               <span class="absolute inset-y-0 left-0 flex items-center pl-3">
                 <svg
-                  class="fill-current text-gray-500 h-5 w-5"
                   xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 512"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2.5"
+                  stroke="currentColor"
+                  class="h-5 w-5 text-gray-500"
                 >
                   <path
-                    d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
                   />
                 </svg>
               </span>
               <input
-                class="block w-full pl-10 pr-4 py-2 bg-gray-900 text-sm rounded-lg placeholder-gray-400 text-white focus:text-gray-600 focus:outline-none focus:placeholder-gray-800 focus:bg-white"
+                class="block w-full pl-10 pr-4 py-2 bg-stone-900 text-sm rounded-lg placeholder-gray-300 text-white focus:text-gray-600 focus:outline-none focus:placeholder-stone-800 focus:bg-white"
                 placeholder="Search"
               />
             </div>
-            <button class="text-gray-400 ml-6 hover:text-gray-200">
+            <button class="text-gray-200 ml-6 hover:text-white">
               <svg
                 class="fill-current h-5 w-5"
                 xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +89,7 @@
                 />
               </svg>
             </button>
-            <button class="text-gray-400 mx-6 hover:text-gray-200">
+            <button class="text-gray-200 mx-6 hover:text-white">
               <svg
                 class="fill-current h-5 w-5"
                 xmlns="http://www.w3.org/2000/svg"
@@ -98,8 +103,8 @@
           </div>
         </div>
       </header>
-      <div class="flex-1 flex">
-        <div class="w-72 p-6 bg-gray-100">
+      <div class="flex-1 flex overflow-hidden">
+        <div class="w-72 p-6 bg-gray-100 no-scrollbar overflow-y-auto">
           <nav>
             <h2
               class="text-sm font-semibold text-gray-600 uppercase tracking-wider"
@@ -114,7 +119,7 @@
               >
                 <span class="inline-flex">
                   <svg
-                    class="h-5 w-5 fill-current text-gray-500"
+                    class="h-5 w-5 fill-current text-stone-500"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 512"
                   >
@@ -136,7 +141,7 @@
               >
                 <span class="inline-flex">
                   <svg
-                    class="h-5 w-5 fill-current text-gray-500"
+                    class="h-5 w-5 fill-current text-stone-500"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 448 512"
                   >
@@ -154,7 +159,7 @@
               >
                 <span class="inline-flex">
                   <svg
-                    class="h-5 w-5 fill-current text-gray-500"
+                    class="h-5 w-5 fill-current text-stone-500"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 512"
                   >
@@ -176,7 +181,7 @@
               >
                 <span class="inline-flex">
                   <svg
-                    class="h-5 w-5 fill-current text-gray-500"
+                    class="h-5 w-5 fill-current text-stone-500"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 448 512"
                   >
@@ -198,7 +203,7 @@
               >
                 <span class="inline-flex">
                   <svg
-                    class="h-5 w-5 fill-current text-gray-500"
+                    class="h-5 w-5 fill-current text-stone-500"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 512"
                   >
@@ -216,7 +221,7 @@
               >
                 <span class="inline-flex">
                   <svg
-                    class="h-5 w-5 fill-current text-gray-500"
+                    class="h-5 w-5 fill-current text-stone-500"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 448 512"
                   >
@@ -241,9 +246,11 @@
           </nav>
         </div>
         <main class="flex flex-1">
-          <div class="w-full max-w-xs border-l border-r border-gray-300">
+          <div
+            class="flex flex-col w-full max-w-lg border-l border-r border-stone-300"
+          >
             <div
-              class="px-4 py-2 flex items-center justify-between border-b border-gray-300"
+              class="shrink-0 px-4 py-2 flex items-center justify-between border-b border-stone-300"
             >
               <button class="flex items-center">
                 <p class="text-sm font-semibold text-gray-600">
@@ -261,7 +268,7 @@
               </button>
               <button>
                 <svg
-                  class="h-5 w-5 fill-current text-gray-500"
+                  class="h-5 w-5 fill-current text-stone-500"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 576 512"
                 >
@@ -271,23 +278,249 @@
                 </svg>
               </button>
             </div>
-            <div>
-              <a href="#" class="block px-6 py-3 bg-white">
+            <div class="flex-1 no-scrollbar overflow-y-auto">
+              <a
+                href="#"
+                class="block px-6 pt-3 pb-4 bg-white rounded-lg m-1 shadow-sm hover:shadow-xl"
+              >
                 <div class="flex justify-between">
-                  <span class="font-semibold text-gray-900">
-                    Gloria Robertson
-                  </span>
-                  <span class="text-sm text-gray-600"> 2 days ago </span>
+                  <span class="font-semibold text-gray-900">John Doe</span>
+                  <span class="text-sm text-gray-600">3 days ago</span>
                 </div>
-                <p class="text-sm text-gray-900">Refund</p>
+                <p class="text-sm text-gray-900">New Order</p>
                 <p class="mt-2 text-sm text-gray-600">
-                  Lorem ipsum dolor sit amet adipis icing elit. Vela weqwea
-                  awdawd aawda awd ex eos....
+                  John placed a new order for a premium package. His order is
+                  scheduled for delivery soon.
+                </p>
+              </a>
+
+              <a
+                href="#"
+                class="block px-6 pt-3 pb-4 bg-white rounded-lg m-1 shadow-sm hover:shadow-xl"
+              >
+                <div class="flex justify-between">
+                  <span class="font-semibold text-gray-900">Jane Smith</span>
+                  <span class="text-sm text-gray-600">1 day ago</span>
+                </div>
+                <p class="text-sm text-gray-900">Payment Received</p>
+                <p class="mt-2 text-sm text-gray-600">
+                  Jane successfully completed her payment via credit card. The
+                  transaction was verified by our system.
+                </p>
+              </a>
+
+              <a
+                href="#"
+                class="block px-6 pt-3 pb-4 bg-white rounded-lg m-1 shadow-sm hover:shadow-xl"
+              >
+                <div class="flex justify-between">
+                  <span class="font-semibold text-gray-900">Michael Brown</span>
+                  <span class="text-sm text-gray-600">2 days ago</span>
+                </div>
+                <p class="text-sm text-gray-900">Refund Issued</p>
+                <p class="mt-2 text-sm text-gray-600">
+                  Michael received a refund for his cancelled order. The refund
+                  was processed promptly.
+                </p>
+              </a>
+
+              <a
+                href="#"
+                class="block px-6 pt-3 pb-4 bg-white rounded-lg m-1 shadow-sm hover:shadow-xl"
+              >
+                <div class="flex justify-between">
+                  <span class="font-semibold text-gray-900">Emily Davis</span>
+                  <span class="text-sm text-gray-600">4 days ago</span>
+                </div>
+                <p class="text-sm text-gray-900">Order Shipped</p>
+                <p class="mt-2 text-sm text-gray-600">
+                  Emily's order has been shipped and is on its way. You can
+                  track the package using the tracking number provided.
+                </p>
+              </a>
+
+              <a
+                href="#"
+                class="block px-6 pt-3 pb-4 bg-white rounded-lg m-1 shadow-sm hover:shadow-xl"
+              >
+                <div class="flex justify-between">
+                  <span class="font-semibold text-gray-900">Chris Johnson</span>
+                  <span class="text-sm text-gray-600">5 days ago</span>
+                </div>
+                <p class="text-sm text-gray-900">Account Update</p>
+                <p class="mt-2 text-sm text-gray-600">
+                  Chris updated his account information successfully. All
+                  changes have been saved securely.
+                </p>
+              </a>
+
+              <a
+                href="#"
+                class="block px-6 pt-3 pb-4 bg-white rounded-lg m-1 shadow-sm hover:shadow-xl"
+              >
+                <div class="flex justify-between">
+                  <span class="font-semibold text-gray-900">Sarah Lee</span>
+                  <span class="text-sm text-gray-600">6 days ago</span>
+                </div>
+                <p class="text-sm text-gray-900">New Registration</p>
+                <p class="mt-2 text-sm text-gray-600">
+                  Sarah registered a new account with our platform. Welcome to
+                  our community—enjoy all the benefits!
+                </p>
+              </a>
+
+              <a
+                href="#"
+                class="block px-6 pt-3 pb-4 bg-white rounded-lg m-1 shadow-sm hover:shadow-xl"
+              >
+                <div class="flex justify-between">
+                  <span class="font-semibold text-gray-900">David Miller</span>
+                  <span class="text-sm text-gray-600">2 days ago</span>
+                </div>
+                <p class="text-sm text-gray-900">Subscription Renewal</p>
+                <p class="mt-2 text-sm text-gray-600">
+                  David renewed his subscription for another year. His account
+                  is now active with all premium features.
+                </p>
+              </a>
+
+              <a
+                href="#"
+                class="block px-6 pt-3 pb-4 bg-white rounded-lg m-1 shadow-sm hover:shadow-xl"
+              >
+                <div class="flex justify-between">
+                  <span class="font-semibold text-gray-900">Lisa Wilson</span>
+                  <span class="text-sm text-gray-600">1 day ago</span>
+                </div>
+                <p class="text-sm text-gray-900">Support Ticket</p>
+                <p class="mt-2 text-sm text-gray-600">
+                  Lisa submitted a support ticket regarding her recent issue.
+                  Our support team is reviewing her request and will respond
+                  shortly.
                 </p>
               </a>
             </div>
           </div>
-          <div class="flex-1"></div>
+          <div class="flex-1">
+            <div>
+              <div class="p-5 bg-gray-100 flex items-center justify-between">
+                <div class="flex items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    class="size-6 text-stone-500 hover:text-stone-700 ml-8"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9 15 3 9m0 0 6-6M3 9h12a6 6 0 0 1 0 12h-3"
+                    />
+                  </svg>
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    class="size-6 text-stone-500 hover:text-stone-700 ml-8"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9.568 3H5.25A2.25 2.25 0 0 0 3 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 0 0 5.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 0 0 9.568 3Z"
+                    />
+                  </svg>
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    class="size-6 text-stone-500 hover:text-stone-700 ml-8"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                    />
+                  </svg>
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    class="size-6 text-stone-500 hover:text-stone-700 ml-8"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m9 13.5 3 3m0 0 3-3m-3 3v-6m1.06-4.19-2.12-2.12a1.5 1.5 0 0 0-1.061-.44H4.5A2.25 2.25 0 0 0 2.25 6v12a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9a2.25 2.25 0 0 0-2.25-2.25h-5.379a1.5 1.5 0 0 1-1.06-.44Z"
+                    />
+                  </svg>
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    class="size-6 text-stone-500 hover:text-stone-700 ml-8"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                    />
+                  </svg>
+                </div>
+
+                <div class="flex">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    class="size-6 text-stone-500 hover:text-stone-700 ml-3"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m4.5 15.75 7.5-7.5 7.5 7.5"
+                    />
+                  </svg>
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    class="size-6 text-stone-500 hover:text-stone-700 ml-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div></div>
+            </div>
+            <div>
+              <article></article>
+              <article></article>
+              <article></article>
+            </div>
+          </div>
         </main>
       </div>
     </div>
