@@ -247,7 +247,7 @@
         </div>
         <main class="flex flex-1">
           <div
-            class="flex flex-col w-full max-w-lg border-l border-r border-stone-300"
+            class="relative flex flex-col w-full max-w-lg border-l border-r border-stone-300"
           >
             <div
               class="shrink-0 px-4 py-2 flex items-center justify-between border-b border-stone-300"
@@ -284,7 +284,7 @@
                 class="block px-6 pt-3 pb-4 bg-white rounded-lg m-1 shadow-sm hover:shadow-xl"
               >
                 <div class="flex justify-between">
-                  <span class="font-semibold text-gray-900">John Doe</span>
+                  <span class="font-semibold text-gray-900">Peter Parker</span>
                   <span class="text-sm text-gray-600">3 days ago</span>
                 </div>
                 <p class="text-sm text-gray-900">New Order</p>
@@ -299,12 +299,12 @@
                 class="block px-6 pt-3 pb-4 bg-white rounded-lg m-1 shadow-sm hover:shadow-xl"
               >
                 <div class="flex justify-between">
-                  <span class="font-semibold text-gray-900">Jane Smith</span>
+                  <span class="font-semibold text-gray-900">Tony Stark</span>
                   <span class="text-sm text-gray-600">1 day ago</span>
                 </div>
                 <p class="text-sm text-gray-900">Payment Received</p>
                 <p class="mt-2 text-sm text-gray-600">
-                  Jane successfully completed her payment via credit card. The
+                  Tony successfully completed his payment via credit card. The
                   transaction was verified by our system.
                 </p>
               </a>
@@ -314,12 +314,12 @@
                 class="block px-6 pt-3 pb-4 bg-white rounded-lg m-1 shadow-sm hover:shadow-xl"
               >
                 <div class="flex justify-between">
-                  <span class="font-semibold text-gray-900">Michael Brown</span>
+                  <span class="font-semibold text-gray-900">Steve Rogers</span>
                   <span class="text-sm text-gray-600">2 days ago</span>
                 </div>
                 <p class="text-sm text-gray-900">Refund Issued</p>
                 <p class="mt-2 text-sm text-gray-600">
-                  Michael received a refund for his cancelled order. The refund
+                  Steve received a refund for his cancelled order. The refund
                   was processed promptly.
                 </p>
               </a>
@@ -401,8 +401,8 @@
               </a>
             </div>
           </div>
-          <div class="flex-1">
-            <div>
+          <div class="flex-1 w-0">
+            <div class="shadow">
               <div class="p-5 bg-gray-100 flex items-center justify-between">
                 <div class="flex items-center">
                   <svg
@@ -411,7 +411,7 @@
                     viewBox="0 0 24 24"
                     stroke-width="2"
                     stroke="currentColor"
-                    class="size-6 text-stone-500 hover:text-stone-700 ml-8"
+                    class="size-6 text-stone-500 hover:text-stone-700 mr-8"
                   >
                     <path
                       stroke-linecap="round"
@@ -426,7 +426,7 @@
                     viewBox="0 0 24 24"
                     stroke-width="2"
                     stroke="currentColor"
-                    class="size-6 text-stone-500 hover:text-stone-700 ml-8"
+                    class="size-6 text-stone-500 hover:text-stone-700 mr-8"
                   >
                     <path
                       stroke-linecap="round"
@@ -441,7 +441,7 @@
                     viewBox="0 0 24 24"
                     stroke-width="2"
                     stroke="currentColor"
-                    class="size-6 text-stone-500 hover:text-stone-700 ml-8"
+                    class="size-6 text-stone-500 hover:text-stone-700 mr-8"
                   >
                     <path
                       stroke-linecap="round"
@@ -456,7 +456,7 @@
                     viewBox="0 0 24 24"
                     stroke-width="2"
                     stroke="currentColor"
-                    class="size-6 text-stone-500 hover:text-stone-700 ml-8"
+                    class="size-6 text-stone-500 hover:text-stone-700 mr-8"
                   >
                     <path
                       stroke-linecap="round"
@@ -471,7 +471,7 @@
                     viewBox="0 0 24 24"
                     stroke-width="2"
                     stroke="currentColor"
-                    class="size-6 text-stone-500 hover:text-stone-700 ml-8"
+                    class="size-6 text-stone-500 hover:text-stone-700 mr-8"
                   >
                     <path
                       stroke-linecap="round"
@@ -488,7 +488,7 @@
                     viewBox="0 0 24 24"
                     stroke-width="2"
                     stroke="currentColor"
-                    class="size-6 text-stone-500 hover:text-stone-700 ml-3"
+                    class="size-6 text-stone-500 hover:text-stone-700 mr-3"
                   >
                     <path
                       stroke-linecap="round"
@@ -503,7 +503,7 @@
                     viewBox="0 0 24 24"
                     stroke-width="2"
                     stroke="currentColor"
-                    class="size-6 text-stone-500 hover:text-stone-700 ml-6"
+                    class="size-6 text-stone-500 hover:text-stone-700 mr-auto"
                   >
                     <path
                       stroke-linecap="round"
@@ -513,12 +513,106 @@
                   </svg>
                 </div>
               </div>
-              <div></div>
+              <div class="flex items-center justify-between px-5 py-4 bg-white">
+                <h3 class="text-xl text-gray-900 truncate">Re: New Order</h3>
+                <div class="ml-4 flex shrink-0">
+                  <span class="mr-4 text-lg text-gray-900">#1342</span>
+                  <span
+                    class="px-3 py-1 font-semibold text-sm text-green-900 bg-green-200 rounded-full leading-tight"
+                    >Active</span
+                  >
+                </div>
+              </div>
             </div>
-            <div>
-              <article></article>
-              <article></article>
-              <article></article>
+            <div class="p-3">
+              <article class="px-10 pt-6 pb-8 bg-white rounded-lg shadow">
+                <div class="flex items-center justify-between">
+                  <p>
+                    <span class="text-lg font-semibold text-gray-900"
+                      >Peter Parker</span
+                    >
+                    <span class="font-semibold text-gray-600 ml-1">wrote</span>
+                  </p>
+                  <div class="flex items-center">
+                    <span class="text-sm text-gray-600">
+                      Yesterday at 7:24 PM
+                    </span>
+                    <img
+                      class="ml-5 h-9 w-9 rounded-full object-cover"
+                      src="https://images.unsplash.com/photo-1505925456693-124134d66749?q=80&w=144&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="mt-4 text-sm text-gray-800">
+                  <p class="mb-4">Hi,</p>
+                  <p class="mb-4">
+                    I'm interested in purchasing the wireless earbuds listed on
+                    your website. Are they still in stock? Also, do you offer
+                    any discounts for bulk orders?
+                  </p>
+                  <p>Thanks, Peter</p>
+                </div>
+              </article>
+
+              <article class="mt-2 px-10 pt-6 pb-8 bg-white rounded-lg shadow">
+                <div class="flex items-center justify-between">
+                  <p>
+                    <span class="text-lg font-semibold text-gray-900"
+                      >Shahariar Ahmed</span
+                    >
+                    <span class="font-semibold text-gray-600 ml-1"
+                      >replied</span
+                    >
+                  </p>
+                  <div class="flex items-center">
+                    <span class="text-sm text-gray-600">
+                      Yesterday at 7:32 PM
+                    </span>
+                    <img
+                      class="ml-5 h-9 w-9 rounded-full object-cover"
+                      src="https://avatars.githubusercontent.com/u/74198638?v=4"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="mt-4 text-sm text-gray-800">
+                  <p class="mb-4">Hi Peter,</p>
+                  <p class="mb-4">
+                    Thank you for your interest! Yes, the wireless earbuds are
+                    in stock. We do offer discounts for bulk purchases—orders of
+                    5 or more units qualify for a 10% discount. Let me know how
+                    many you'd like to order, and I’d be happy to assist!
+                  </p>
+                  <p>Best regards,</p>
+                  <p class="font-semibold text-gray-900">Shahariar Ahmed</p>
+                </div>
+              </article>
+
+              <article class="mt-2 px-10 pt-6 pb-8 bg-white rounded-lg shadow">
+                <div class="flex items-center justify-between">
+                  <p>
+                    <span class="text-lg font-semibold text-gray-900"
+                      >Peter Parker</span
+                    >
+                    <span class="font-semibold text-gray-600 ml-1">wrote</span>
+                  </p>
+                  <div class="flex items-center">
+                    <span class="text-sm text-gray-600">
+                      Yesterday at 7:43 PM
+                    </span>
+                    <img
+                      class="ml-5 h-9 w-9 rounded-full object-cover"
+                      src="https://images.unsplash.com/photo-1505925456693-124134d66749?q=80&w=144&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="mt-4 text-sm text-gray-800">
+                  <p class="mb-4">Great! I’d like to order 6 pairs.</p>
+                  <p>Thanks, Peter</p>
+                </div>
+              </article>
             </div>
           </div>
         </main>
